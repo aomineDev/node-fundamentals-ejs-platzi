@@ -6,14 +6,14 @@
 
 ## Index
 - [Orígenes y Filosofia](#orígenes-y-filosofia)
-  - [¿Qué es node.js?](#¿qué-es-node.js?)
-- [Características de Node.js](#características-de-node.js)
+  - [¿Qué es node.js?](#qué-es-node)
+- [Características de Node.js](#características-de-node)
   - [Concurrencia](#concurrencia)
 
 
 ## Orígenes y Filosofia
 
-### ¿Qué es node.js?
+### ¿Qué es node?
 Es un entorno de ejecución de javascript fuera del navegador y esta orientado a navegadores
 
 Nos permite ejecutarlo en cualquier lugar que nos permita ejecutar software
@@ -22,7 +22,7 @@ Nos permite ejecutarlo en cualquier lugar que nos permita ejecutar software
   <small><a href="#index">↑ Volver al inicio</a></small>
 </div>
 
-## Características de Node.js
+## Características de Node
 
 ### Concurrencia
 Aunque sea monohilo todas sus entradas y salidas son asincronas
