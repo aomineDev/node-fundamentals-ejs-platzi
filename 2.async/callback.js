@@ -18,13 +18,18 @@ function goodBye (name, anotherCallback) {
   }, 1000)
 }
 
+// ------------------------------------------------------
+
+// iAmAsync()
+// sayHello(name, () => {})
+// goodBye(name, () => {})
+
+// ------------------------------------------------------
+
 console.log('Iniciando proceso...')
 
 sayHello('aomine', name => {
   goodBye(name, () => {
-    console.log('FInalizando proceso...')
+    console.log('Finalizando proceso...')
   })
 })
-
-// sayHello(name, () => {})
-// goodBye(name, () => {})
