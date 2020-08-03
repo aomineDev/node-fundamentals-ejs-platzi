@@ -7,23 +7,23 @@
 // ------------------------------------------------------
 // FUNCIONES GLOBALES
 
-// let i = 1
+let i = 1
 
-// const interval = setInterval(() => {
-//   console.log(`Hola ${i} ${i === 1 ? 'vez' : 'veces'}`)
+const interval = setInterval(() => {
+  console.log(`Hola ${i} ${i === 1 ? 'vez' : 'veces'}`)
 
-//   if (i === 3) {
-//     clearInterval(interval)
-//     console.log('Intervalo finalizado')
-//     return
-//   }
+  if (i === 3) {
+    clearInterval(interval)
+    console.log('Intervalo finalizado')
+    return
+  }
   
-//   i++
-// }, 1000)
+  i++
+}, 1000)
 
-// setImmediate(() => {
-//   console.log('Hola')
-// })
+setImmediate(() => {
+  console.log('Hola')
+})
 
 // ------------------------------------------------------
 // VARIABLES GOLBALES
@@ -32,10 +32,10 @@
 // console.log(process)
 
 // El directorio donde esta ubicado nuestro archivo
-// console.log(__dirname)
+console.log(__dirname)
 
 // El nombre del archivo donde estamos
-// console.log(__filename)
+console.log(__filename)
 
 // ------------------------------------------------------
 // CUSTOM VARIABLE GOLBAL
